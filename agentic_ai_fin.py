@@ -1,17 +1,14 @@
-'''application having multiple agents, that will
-provide financial analysis.
+'''application having multiple agents, that will provide financial analysis.
 
-Summarize and recommend the stock of NVIDIA.
+Analyze the news of financial condition, summarize the stock market and recommend the best stock to buy.
 
-The chatbot will contact the AI agent and that will be doing
-all interaction to get the detail of srock.
+The chatbot will contact the first AI agent that will be doing all interaction to the financial source to get the detail of stock.
 
-The second agent will get all the latest news from yfinance from web search.
+The second agent will get all the latest news from yfinance using web search.
 
-All info will be combined and the agents will interact wil LLM model
-and finally provide the output.
+All info will be combined and the agents will interact wil LLM model to finally provide the output.
 
-That's how the agentic AI is gonna work'''
+That's how this agentic AI is going to work'''
 
 from phi.agent import Agent
 from phi.model.groq import Groq
