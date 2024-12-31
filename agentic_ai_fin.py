@@ -63,6 +63,3 @@ multi_ai_agent = Agent(
 
 
 multi_ai_agent.print_response("Share the latest financial news for Amazon, Google and Meta and recommend the best stock among all three to purchase.", stream=True)
-
-
-'''Workflow:'''
