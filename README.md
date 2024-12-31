@@ -1,5 +1,5 @@
 # Agentic AI Using Groq and Phidata API
-Agentic AI application that demonstrates the creation of two AI agents for analysing the financial status and latest news for stock market. These multi-agents are able to levarage large language models to provide a recommendation to the users as a combined AI agent to buy and sell stocks.
+Agentic AI application that demonstrates the development of two AI agents for assessing the financial status and latest news for stock market analysis. These AI agents leverage large language models to provide recommendations to users as combined AI agent for buying and selling stocks.
 
 The agents are capable to interact with a wide range of sources, tools and language model to gather and combine information and provide recommendations instantly.
 
