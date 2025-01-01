@@ -48,7 +48,7 @@ The agents are capable to interact with a wide range of sources, tools and langu
     
             OPENAI_API_KEY=<your-openai-api-key>
 
-4. Create prompt according to your search criteria: ```multi_ai_agent.print_response```
+4. On your .py file, create prompt according to your search criteria using your combined agent name as follows ```multi_ai_agent.print_response```
 
 
 ## Usage
@@ -59,21 +59,23 @@ Run the `agentic_ai_fin.py` script to start the agents and get financial analysi
 
 Run a multi-agent query: 
 
+Sample Prompt 1:
+
 ```multi_ai_agent.print_response("Summarize analyst recommendation and share the latest news for NVDA", stream=True)```
 
 
-Prompt:
+Sample Prompt 2:
 
 `Share the latest financial news for Amazon, Google and Meta and recommend the best stock among all three to purchase.`
 
-The script outputs the latest financial news for Amazon, Google, and Meta, and recommend the best stock to purchase among the three.
+The scripts output the latest financial news for Amazon, Google, and Meta, and recommend the best stock to purchase among the three.
 
 
 ## Repository Installation
 
 1. Clone the repository.
    
-   ```git clone https://github.com/NavidBinAhmed/agentic_ai_using_groq_phidata_API```
+   ```git clone https://github.com/NavidBinAhmed/agentic_ai_using_groq_openai_phidata_API.git```
    
 3. Install the required dependencies
 
